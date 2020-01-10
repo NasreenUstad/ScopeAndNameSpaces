@@ -2,9 +2,9 @@ def fact(n):
     """ Calculate n! iteratively"""
     result = 1
     if n > 1:
-        for fact in range(2, n + 1):
-            print(f"{result} * {fact}")
-            result *= fact
+        for f in range(2, n + 1):
+            print(f"{result} * {f}")
+            result *= f
 
     return result
 
